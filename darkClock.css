@@ -1,0 +1,24 @@
+* {
+  border:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background:#091921;
+}
+
+.clock {
+  width:350px;
+  height:350px;
+  background:url(./images/clock.png);
+  background-size: cover;
+  background-blend-mode: lighten;
+  filter: invert(50%);
+  -webkit-filter: invert(50%);
+}
+
